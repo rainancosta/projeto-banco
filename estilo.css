@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 30px; 
+  font-family: Verdana;
+  background-color: white;
+  
+}
+
+h1, h2,h3{
+  color: red;
+  text-align: center;
+  
+
+}
+.card{
+
+box-shadow: 3px 6px 8px 3px rgba(100, 100, 3, 0.1);
+}
+
+
+
+
+

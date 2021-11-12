@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html pt-br>
+<head>
+	<meta charset= "UTF-8">
+	<title>Tela de cadastro</title>
+	 <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<!--Formatação da aba do formulário-->
+<div class="container">
+  <nav> 
+<a href="index.php"><input type="submit" value="Página Inicial" class="btn"></a>
+  </nav>
+  <section>
+    <H1>Cadastro de clientes</H1> 
+     <hr><br><br>
+ <!--formulario para o cadastro de cliente-->
+<form action="processa.php" method= "post">
+
+ CPF <br>
+<input type="number" name="cpf" class= "campo" maxlength= "40" required autofocus><br>
+Nome <br>
+<input type="text" name="nome" class= "campo" maxlength= "40" required autofocus><br>
+Telefone <br>
+<input type="number" name="telefone" class= "campo" maxlength= "40" required autofocus><br>
+Endereço <br>
+<input type="text" name="endereco" class= "campo" maxlength= "50" required autofocus><br>
+Senha <br>
+<input type="password" name="senha" class= "campo" maxlength= "40" required autofocus><br>
+Saldo <br>
+<input type="double" name="saldo" class= "campo" maxlength= "40" required autofocus><br>
+<br><br>
+<input type="submit" value="Salvar" class="btn">  
+<input type="reset" value="Limpar" class="btn">
+</form>
+
+
+</section>
+</div>
+
+
+</form>
+</body>
+</html>
